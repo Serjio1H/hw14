@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	width: 100%;
+	min-height: 839px;
+	max-width: 730px;
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #5E6778;
+	background: #FFFFFF;
+	box-shadow: 0px 20px 60px rgba(73, 97, 168, 0.05);
+	border-radius: 15px;
+	margin: 0 auto;
+	
+}
+a{
+	text-decoration: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.container{
+	max-width: 670px;
+	margin: 0 auto;
+}
+
+.header {
+	padding: 32px;
+}
+
+.notifcation{
+	display: flex;
+	align-items: center;
+	gap: 11px;
+}
+
+.notification-count {
+	min-width: 37px;
+	height: 25px;
+	background: #0A327B;
+	text-align: center;
+	border-radius: 6px;
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 20px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 5px;
+}
+.notification-title {
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 30px;
+	color: #1C202B;
+}
+
+.notification-read {
+	margin-left: auto;
+}
+
+.notice{
+	
+	width: 670px;
+	height: 80px;
+	
+	border-radius: 8px;
+	padding: 18px 20px;
+	margin-bottom: 8px;
+	
+}
+
+.notice-bg{
+	background: #F7FAFD;
+}
+
+.notice header{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 7px;
+		
+}
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+}
+
+.inner{
+	display: flex;
+	gap: 6px;
+	align-items: center;
+}
+.img{
+	width: 45px;
+	height: 45px;
+}
+.circle {
+	width: 8px;
+	height: 8px;
+	background: #F65552;
+	border-radius: 50%;
+	margin-left: 6px;
+}
+
+.title-notice{
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 20px;
+	color: #1C202B;
+}
+
+
+.strong{
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.text-link{
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 20px;
+	color: #0A327B;
+}
+
+.wrapper-comment{
+	padding-top: 13px;
+	margin-left: auto;
+	
+
+	
+}
+
+.comment-text{
+	font-family: 'Plus Jakarta Sans';
+	width: 566px;
+	height: 97px;
+	text-align: left;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #5E6778;
+	border: 1px solid #DDE7EE;
+	border-radius: 5px; 
+	overflow: hidden;
+	resize: none;
+	padding: 20px;
+
+}
+
+.section-two{
+	padding-top: 125px;
+}
+
+.rectangle{
+	padding-left: 182px;
+}
+
+.rectangle img{
+width: 30px;
+height: 30px;
+border-radius: 8px;
+}
